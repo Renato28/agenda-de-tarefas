@@ -1,0 +1,8 @@
+CREATE TABLE tarefa (
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50) NOT NULL,
+    data_inicio DATETIME NOT NULL,
+    data_fim DATETIME NOT NULL,
+    status VARCHAR(20) NOT NULL,
+    PRIMARY KEY (id)
+);
